@@ -5,7 +5,6 @@ import styles from './styles';
 
 import iconDefault from '../../assets/default.png';
 
-
 export default function TaskCard({ done }){
     return (
         <TouchableOpacity style={styles.card}>
