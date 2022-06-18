@@ -5,6 +5,7 @@ import { Text, View, Image, TouchableOpacity, TextInput, ScrollView, KeyboardAvo
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import typeIcons from '../../utils/typeIcons';
+import DateTimeInput from '../../components/DateTimeInput/index.android';
 
 import styles from './styles';
 
@@ -39,6 +40,9 @@ export default function Task(){
                 maxLength={200} 
                 multiline = {true}
                 placeholder="Detalhes da atividade que eu tenho que lembrar ..."/>
+                
+                <DateTimeInput type={'date'}/>
+                <DateTimeInput type={'hour'}/>
 
                 <View style={styles.inLine}>
                     <View style={styles.inputInline}>

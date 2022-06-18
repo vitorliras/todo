@@ -35,15 +35,17 @@ const styles = StyleSheet.create({
         borderColor: '#EE6B26',
         marginHorizontal: 10,
         borderRadius: 10,
-        height: 120,
-        textAlignVertical:'top'
+        height: 150,
+        textAlignVertical:'top',
+        marginVertical:10
     },
     inLine:{
         width: '100%',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent:'space-between',
-        padding: 10
+        padding: 10,
+        marginBottom: 30
     },
     inputInline:{
         flexDirection: 'row',
